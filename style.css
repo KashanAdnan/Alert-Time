@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    transition: 0.5s;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+button:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+input {
+    padding: 10px 30px;
+    border: 1px solid tomato;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: tomato;
+    outline: none;
+}
+
+input::placeholder {
+    color: tomato;
+}
